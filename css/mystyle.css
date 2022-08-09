@@ -1,0 +1,41 @@
+footer {
+    text-align: center;
+    font-weight: 100;
+    left: 50%;
+    bottom: 0%;
+
+}
+
+table {
+    text-align: center;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 320px) {
+    .flexcontainer {
+        display: block;
+    }
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 9999999999;
+    position: fixed;
+    display: inline-block;
+}
+
+.modal {
+    z-index: 20;
+}
+
+.modal-backdrop {
+    z-index: 10;
+}
